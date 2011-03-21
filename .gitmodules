@@ -1,0 +1,9 @@
+[submodule "node_modules/node-expat"]
+	path = node_modules/node-expat
+	url = git://github.com/astro/node-expat.git
+[submodule "node_modules/node-xml2js-expat"]
+	path = node_modules/node-xml2js-expat
+	url = git://github.com/Poetro/node-xml2js-expat.git
+[submodule "node_modules/node_redis"]
+	path = node_modules/node_redis
+	url = git://github.com/mranney/node_redis.git
