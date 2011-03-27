@@ -60,7 +60,7 @@ function postImages(images) {
 
     multi.exec(function(err, replies) {
         client.sdiff('photos-' + runVersion, 'photos', function(err, reply) {
-            sys.puts('diff', sys.inspect(reply, false, null));
+            //sys.puts('diff', sys.inspect(reply, false, null));
 
             client.del('photos-' + runVersion);
 
